@@ -24,7 +24,32 @@ If you want it to run 24/7, you can setup a systemd unit/supervisord running in 
 
 3) Now the honeypot is running inside a docker container and listening on port 23<br>
 
+### Test 
 
+```
+telnet 127.1 23
+Trying 127.0.0.1...
+Connected to 127.1.
+Escape character is '^]'.
+This device is for authorized personnel only.
+If you have not been provided with permission to
+access this device - disconnect at once.
+*** Login Required.  Unauthorized use is prohibited ***
+*** Ensure that you update the system configuration ***
+*** documentation after making system changes.      ***
+User Access Verification:
+Password:
+
+GW-EXTERNAL >
+GW-EXTERNAL >enable
+GW-EXTERNAL #
+GW-EXTERNAL #ping 8.8.8.8
+64 bytes from  8.8.8.8 : icmp_seq = 0  ttl = 20  time= 26.  ms
+64 bytes from  8.8.8.8 : icmp_seq = 1  ttl = 40  time= 26.  ms
+64 bytes from  8.8.8.8 : icmp_seq = 2  ttl = 30  time= 24.  ms
+64 bytes from  8.8.8.8 : icmp_seq = 3  ttl = 0  time= 20.  ms
+GW-EXTERNAL #
+```
 
 
 Tested on Ubuntu 16.04
