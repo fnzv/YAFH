@@ -1,0 +1,19 @@
+Cool to have:
+# Capture CTRL-Z CTRL-C
+# Obfuscate password --> use real telnet server just for fake auth?
+
+
+
+Implementations:
+# Complete fake cisco ios menu ( conf t, router, help ..?)
+# gather src IP/port  /ASN info on separate logs
+# Webui?
+# create docker image - https://blog.golang.org/docker
+# Add other honeypots like Elasic (redis,memcache ,varnish ... )
+# Automatically report Botnets/telnet multiple attemps via abuse emails
+
+
+
+DONE:
+# fake cisco login complete + enable
+# write to logfiles all in append
