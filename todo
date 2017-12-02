@@ -8,12 +8,12 @@ Implementations:
 # Complete fake cisco ios menu ( conf t, router, help ..?)
 # gather src IP/port  /ASN info on separate logs
 # Webui?
-# create docker image - https://blog.golang.org/docker
 # Add other honeypots like Elasic (redis,memcache ,varnish ... )
 # Automatically report Botnets/telnet multiple attemps via abuse emails
 
 
 
 DONE:
+# create docker image - https://blog.golang.org/docker
 # fake cisco login complete + enable
 # write to logfiles all in append
