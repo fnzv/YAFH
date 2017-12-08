@@ -13,11 +13,12 @@
 ```./telnetd``` <br>
 
 <br><br>
-- All users trying to connecting via TELNET to port 23 will be shown a fake CISCO router login <br>
-- All users trying to connect via SSH to port 2222 will login into a fake shell <br>
+- All users trying to connecting via TELNET to port 23 will be shown a fake CISCO router login (Any input will lead to telnet shell) <br>
+- All users trying to connect via SSH to port 2222 will login into a fake shell (Password is: password.. it's possible to also remove pass auth &/or use key auth)<br>
 - All the actions executed by malicious users will be saved into yafh-telnet.log / yafh-ssh.log, (same dir where you started the binary file) <br><br>
  <br>
 If you want it to run 24/7, you can setup a systemd unit/supervisord running in background keeping the script up or just lunch the command with screen <br>
+
 
 
 ### Running sshd on Docker
