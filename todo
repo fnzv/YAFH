@@ -14,6 +14,7 @@ Implementations:
 
 
 DONE:
+# sshd honeypot implementation
 # create docker image - https://blog.golang.org/docker
 # fake cisco login complete + enable
 # write to logfiles all in append
