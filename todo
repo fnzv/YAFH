@@ -5,6 +5,7 @@ Cool to have:
 
 
 Implementations:
+# Initial menu/quick setup/choose between which honeypot to start
 # Complete fake cisco ios menu ( conf t, router, help ..?)
 # gather src IP/port  /ASN info on separate logs
 # Webui?
